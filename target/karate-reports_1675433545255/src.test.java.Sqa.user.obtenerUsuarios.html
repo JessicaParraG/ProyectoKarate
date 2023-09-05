@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.identify("15a4b416-ab50-479e-a0aa-121ca8717e80",{name:"Usuario"});
+    posthog.capture("report_feature",{karate_version:"1.2.0",karate_meta:null});
+  }
+});
+</script>
+  
+    <title>src.test.java.Sqa.user.obtenerUsuarios</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">1</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2023-02-03 09:10:41 a. m.</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[1:6]"><span>[1:6]</span> <span>test user successfully</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/Sqa/user/obtenerUsuarios.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Testing to users functionality from jsonplaceholder</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:6]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:6]</span>
+                <span class="scenario-name">test user successfully</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>1152</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:6]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:6]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://jsonplaceholder.typicode.com&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">68</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref passed">7</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def usuarios = &#39;users&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref passed">8</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def numeroUsuarios = 8</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def respuestaSolicitud = read:(&#39;classpath:Sqa/user/response/informacion_usuario.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path usuarios, numeroUsuarios</span>
+      </div>
+    </div>
+    <div class="time-cell passed">27</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">996</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.11">09:10:40.533 request:
+1 &gt; GET https://jsonplaceholder.typicode.com/users/8
+1 &gt; Host: jsonplaceholder.typicode.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.18)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+09:10:41.089 response time in milliseconds: 555
+1 &lt; 200
+1 &lt; Date: Fri, 03 Feb 2023 14:10:41 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; X-Powered-By: Express
+1 &lt; X-Ratelimit-Limit: 1000
+1 &lt; X-Ratelimit-Remaining: 998
+1 &lt; X-Ratelimit-Reset: 1675408543
+1 &lt; Vary: Origin, Accept-Encoding
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; Cache-Control: max-age=43200
+1 &lt; Pragma: no-cache
+1 &lt; Expires: -1
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; Etag: W/&quot;209-CXz5ZN8wf6UnQeLsUzX00Zh7L2g&quot;
+1 &lt; Via: 1.1 vegur
+1 &lt; CF-Cache-Status: HIT
+1 &lt; Age: 24944
+1 &lt; Server-Timing: cf-q-config;dur=7.0000000960135e-06
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=JAyRqsw4vdXsOVz24Hu3de%2BzYw67hk8qZL3hz1%2Fx0ueu8ek%2FurEGacAL%2BvHjW%2FUiyJ%2FH5Vz36Cc0CKrPobkWSpmRXB4wzgt9cm4mOJ2D%2FN%2BxCeiQnIj29TVlZfCK4kAzDbV7c8dG76z965qH%2BZRY&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 793bc06249ecd99d-MIA
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+{
+  &quot;id&quot;: 8,
+  &quot;name&quot;: &quot;Nicholas Runolfsdottir V&quot;,
+  &quot;username&quot;: &quot;Maxime_Nienow&quot;,
+  &quot;email&quot;: &quot;Sherwood@rosamond.me&quot;,
+  &quot;address&quot;: {
+    &quot;street&quot;: &quot;Ellsworth Summit&quot;,
+    &quot;suite&quot;: &quot;Suite 729&quot;,
+    &quot;city&quot;: &quot;Aliyaview&quot;,
+    &quot;zipcode&quot;: &quot;45169&quot;,
+    &quot;geo&quot;: {
+      &quot;lat&quot;: &quot;-14.3990&quot;,
+      &quot;lng&quot;: &quot;-120.7677&quot;
+    }
+  },
+  &quot;phone&quot;: &quot;586.493.6943 x140&quot;,
+  &quot;website&quot;: &quot;jacynthe.com&quot;,
+  &quot;company&quot;: {
+    &quot;name&quot;: &quot;Abernathy Group&quot;,
+    &quot;catchPhrase&quot;: &quot;Implemented secondary concept&quot;,
+    &quot;bs&quot;: &quot;e-enable extensible e-tailers&quot;
+  }
+}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">43</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.13">09:10:41.154 [print] {
+  &quot;id&quot;: 8,
+  &quot;name&quot;: &quot;Nicholas Runolfsdottir V&quot;,
+  &quot;username&quot;: &quot;Maxime_Nienow&quot;,
+  &quot;email&quot;: &quot;Sherwood@rosamond.me&quot;,
+  &quot;address&quot;: {
+    &quot;street&quot;: &quot;Ellsworth Summit&quot;,
+    &quot;suite&quot;: &quot;Suite 729&quot;,
+    &quot;city&quot;: &quot;Aliyaview&quot;,
+    &quot;zipcode&quot;: &quot;45169&quot;,
+    &quot;geo&quot;: {
+      &quot;lat&quot;: &quot;-14.3990&quot;,
+      &quot;lng&quot;: &quot;-120.7677&quot;
+    }
+  },
+  &quot;phone&quot;: &quot;586.493.6943 x140&quot;,
+  &quot;website&quot;: &quot;jacynthe.com&quot;,
+  &quot;company&quot;: {
+    &quot;name&quot;: &quot;Abernathy Group&quot;,
+    &quot;catchPhrase&quot;: &quot;Implemented secondary concept&quot;,
+    &quot;bs&quot;: &quot;e-enable extensible e-tailers&quot;
+  }
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref failed">14</div>
+      
+      <div class="step-cell failed">
+        <span>And</span>&nbsp;<span>match respuestaSolicitud == response</span>
+      </div>
+    </div>
+    <div class="time-cell failed">10</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.14">09:10:41.165 src/test/java/Sqa/user/obtenerUsuarios.feature:14
+And match respuestaSolicitud == response
+match failed: EQUALS
+  $ | data types don&#39;t match (STRING:MAP)
+  &#39;classpath:Sqa/user/response/informacion_usuario.json&#39;
+  {&quot;id&quot;:8,&quot;name&quot;:&quot;Nicholas Runolfsdottir V&quot;,&quot;username&quot;:&quot;Maxime_Nienow&quot;,&quot;email&quot;:&quot;Sherwood@rosamond.me&quot;,&quot;address&quot;:{&quot;street&quot;:&quot;Ellsworth Summit&quot;,&quot;suite&quot;:&quot;Suite 729&quot;,&quot;city&quot;:&quot;Aliyaview&quot;,&quot;zipcode&quot;:&quot;45169&quot;,&quot;geo&quot;:{&quot;lat&quot;:&quot;-14.3990&quot;,&quot;lng&quot;:&quot;-120.7677&quot;}},&quot;phone&quot;:&quot;586.493.6943 x140&quot;,&quot;website&quot;:&quot;jacynthe.com&quot;,&quot;company&quot;:{&quot;name&quot;:&quot;Abernathy Group&quot;,&quot;catchPhrase&quot;:&quot;Implemented secondary concept&quot;,&quot;bs&quot;:&quot;e-enable extensible e-tailers&quot;}}
+
+src/test/java/Sqa/user/obtenerUsuarios.feature:14
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

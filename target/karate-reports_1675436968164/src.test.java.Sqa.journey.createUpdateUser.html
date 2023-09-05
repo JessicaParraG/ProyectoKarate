@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.identify("15a4b416-ab50-479e-a0aa-121ca8717e80",{name:"Usuario"});
+    posthog.capture("report_feature",{karate_version:"1.2.0",karate_meta:null});
+  }
+});
+</script>
+  
+    <title>src.test.java.Sqa.journey.createUpdateUser</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2023-02-03 10:04:53 a. m.</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:3]"><span>[1:3]</span> <span></span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/Sqa/journey/createUpdateUser.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Create and update user</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:3]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:3]</span>
+                <span class="scenario-name"></span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>2859</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref passed">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def createUser = call read(&#39;classpath:Sqa/reqres/user/post/crearUsuario.feature&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2830</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="0.4.0.call">
+        <div class="step-ref passed">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">Sqa.reqres.user.post.crearUsuario</div>
+      </div>
+      <div class="time-cell passed">2654</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.1.4">
+      <div class="step-ref passed">4</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://reqres.in/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.1.5">
+      <div class="step-ref passed">5</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def respuestaCrearUsuario = read(&#39;classpath:Sqa/reqres/user/post/request/crear_usuario.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">46</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.1.8">
+      <div class="step-ref passed">8</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def user = 2</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.1.9">
+      <div class="step-ref passed">9</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;api/users/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.1.10">
+      <div class="step-ref passed">10</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method Post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1100</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4.0.call.1.10">10:04:51.789 request:
+1 &gt; POST https://reqres.in/api/users
+1 &gt; Host: reqres.in
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.18)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+10:04:52.438 response time in milliseconds: 647
+1 &lt; 201
+1 &lt; Date: Fri, 03 Feb 2023 15:04:52 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Content-Length: 51
+1 &lt; Connection: keep-alive
+1 &lt; X-Powered-By: Express
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Etag: W/&quot;33-f50ISlRxebbaIp3buKP+yAdQYfM&quot;
+1 &lt; Via: 1.1 vegur
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=0WAwbAEmM2FT0GmUASubx%2Bt0xvLdrGXE32M0Njs5mf5xr15eb3lASEjGy1bibFDghXZMjeLOVOl1f%2FdHYqTdk0%2Ft24lbNAAqiQjUzi7SlKFfnSXYVBxRAQVBgA%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 793c0fc1acc6db19-MIA
+{&quot;id&quot;:&quot;602&quot;,&quot;createdAt&quot;:&quot;2023-02-03T15:04:52.927Z&quot;}
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.1.11">
+      <div class="step-ref passed">11</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 201</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.2.4">
+      <div class="step-ref passed">4</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://reqres.in/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.2.5">
+      <div class="step-ref passed">5</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def respuestaCrearUsuario = read(&#39;classpath:Sqa/reqres/user/post/request/crear_usuario.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.2.8">
+      <div class="step-ref passed">8</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def user = 2</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.2.9">
+      <div class="step-ref passed">9</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;api/users/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.2.10">
+      <div class="step-ref passed">10</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method Post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">485</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4.0.call.2.10">10:04:52.455 request:
+2 &gt; POST https://reqres.in/api/users
+2 &gt; Host: reqres.in
+2 &gt; Connection: Keep-Alive
+2 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.18)
+2 &gt; Accept-Encoding: gzip,deflate
+
+
+10:04:52.937 response time in milliseconds: 482
+2 &lt; 201
+2 &lt; Date: Fri, 03 Feb 2023 15:04:53 GMT
+2 &lt; Content-Type: application/json; charset=utf-8
+2 &lt; Content-Length: 51
+2 &lt; Connection: keep-alive
+2 &lt; X-Powered-By: Express
+2 &lt; Access-Control-Allow-Origin: *
+2 &lt; Etag: W/&quot;33-KW406pkAVPk/08j39yPtF1YB/kQ&quot;
+2 &lt; Via: 1.1 vegur
+2 &lt; CF-Cache-Status: DYNAMIC
+2 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2F1DGHB1UpM8VrL%2BPo%2BXJ8Y82mJXA3T6awZoJpfngfc9tUPXmYAvislUcSkBAt0DcmzbR608gTpZbOVgW0wUmyoag3zb%2F1faZVD3omaLEJbotXRHQDIj9Ru1Sug%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+2 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+2 &lt; Server: cloudflare
+2 &lt; CF-RAY: 793c0fc4faff09d6-MIA
+{&quot;id&quot;:&quot;665&quot;,&quot;createdAt&quot;:&quot;2023-02-03T15:04:53.466Z&quot;}
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.2.11">
+      <div class="step-ref passed">11</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 201</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.3.4">
+      <div class="step-ref passed">4</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://reqres.in/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.3.5">
+      <div class="step-ref passed">5</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def respuestaCrearUsuario = read(&#39;classpath:Sqa/reqres/user/post/request/crear_usuario.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.3.8">
+      <div class="step-ref passed">8</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def user = 2</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.3.9">
+      <div class="step-ref passed">9</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;api/users/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.3.10">
+      <div class="step-ref passed">10</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method Post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">506</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4.0.call.3.10">10:04:52.945 request:
+3 &gt; POST https://reqres.in/api/users
+3 &gt; Host: reqres.in
+3 &gt; Connection: Keep-Alive
+3 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.18)
+3 &gt; Accept-Encoding: gzip,deflate
+
+
+10:04:53.449 response time in milliseconds: 504
+3 &lt; 201
+3 &lt; Date: Fri, 03 Feb 2023 15:04:53 GMT
+3 &lt; Content-Type: application/json; charset=utf-8
+3 &lt; Content-Length: 51
+3 &lt; Connection: keep-alive
+3 &lt; X-Powered-By: Express
+3 &lt; Access-Control-Allow-Origin: *
+3 &lt; Etag: W/&quot;33-rGAH0bP7Dr6KxOuVa1GCD461Alc&quot;
+3 &lt; Via: 1.1 vegur
+3 &lt; CF-Cache-Status: DYNAMIC
+3 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=Lo%2Bro7lUKKpCfzBQsv0ePUXZ0l%2B8%2BPeQTHZiGg%2FqZwXW6TfaOLr7lKM5fKPNnY9ayIlim0UzrUYSK3be2tGXW0gbjSCLIJjcEcUeqRY5CfZEorJ6wqUC%2B1zKWQ%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+3 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+3 &lt; Server: cloudflare
+3 &lt; CF-RAY: 793c0fc7d9210291-MIA
+{&quot;id&quot;:&quot;222&quot;,&quot;createdAt&quot;:&quot;2023-02-03T15:04:53.916Z&quot;}
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.3.11">
+      <div class="step-ref passed">11</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 201</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.4.4">
+      <div class="step-ref passed">4</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://reqres.in/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.4.5">
+      <div class="step-ref passed">5</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def respuestaCrearUsuario = read(&#39;classpath:Sqa/reqres/user/post/request/crear_usuario.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.4.8">
+      <div class="step-ref passed">8</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def user = 2</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.4.9">
+      <div class="step-ref passed">9</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;api/users/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.4.10">
+      <div class="step-ref passed">10</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method Post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">505</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4.0.call.4.10">10:04:53.454 request:
+4 &gt; POST https://reqres.in/api/users
+4 &gt; Host: reqres.in
+4 &gt; Connection: Keep-Alive
+4 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.18)
+4 &gt; Accept-Encoding: gzip,deflate
+
+
+10:04:53.958 response time in milliseconds: 504
+4 &lt; 201
+4 &lt; Date: Fri, 03 Feb 2023 15:04:54 GMT
+4 &lt; Content-Type: application/json; charset=utf-8
+4 &lt; Content-Length: 51
+4 &lt; Connection: keep-alive
+4 &lt; X-Powered-By: Express
+4 &lt; Access-Control-Allow-Origin: *
+4 &lt; Etag: W/&quot;33-precW04i0LXwS4N/r66G/4IHT4E&quot;
+4 &lt; Via: 1.1 vegur
+4 &lt; CF-Cache-Status: DYNAMIC
+4 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=u1%2BmnZJui3C5%2BaAvM7AvlUEY4iyDLYTCoUxzgdsoaKOnVU058xveZvLRsDegZQzYGtolpD56Yhp2SJZmexjBWZzrJkFBegjHOOwiX8pkTZr%2FYoS6zeQ4i3L3Qg%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+4 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+4 &lt; Server: cloudflare
+4 &lt; CF-RAY: 793c0fcb6c03d9c1-MIA
+{&quot;id&quot;:&quot;299&quot;,&quot;createdAt&quot;:&quot;2023-02-03T15:04:54.489Z&quot;}
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.4.11">
+      <div class="step-ref passed">11</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 201</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref passed">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def respuestaUser = $createUser.response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">16</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref passed">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print respuestaUser</span>
+      </div>
+    </div>
+    <div class="time-cell passed">12</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.6">10:04:53.988 [print] {
+  &quot;id&quot;: &quot;299&quot;,
+  &quot;createdAt&quot;: &quot;2023-02-03T15:04:54.489Z&quot;
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
